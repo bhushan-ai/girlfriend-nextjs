@@ -8,16 +8,16 @@ import { Toaster } from "@/components/ui/sonner";
 import { toast } from "sonner";
 
 export default function Home() {
-  async function handleGF() {
-    console.log("write code");
+  // async function handleGF() {
+  //   console.log("write code");
 
-    const response = await axios.get("/api/girlfriend");
-    const tempKey = response.data;
-    const session = new RealtimeSession(gurlfriend, {
-      model: "gpt-realtime",
-    });
-    await session.connect({ apiKey: tempKey });
-  }
+  //   const response = await axios.get("/api/girlfriend");
+  //   const tempKey = response.data;
+  //   const session = new RealtimeSession(gurlfriend, {
+  //     model: "gpt-realtime",
+  //   });
+  //   await session.connect({ apiKey: tempKey });
+  // }
   return (
     <div className="font-sans flex flex-col items-center justify-center min-h-screen bg-black relative overflow-hidden">
       <h2 className="bg-transparent text-2xl  md:text-4xl font-bold text-center p-2 mb-40 bg-gradient-to-r from-white via-red-400 to-red-600 bg-clip-text text-transparent">
