@@ -1,36 +1,133 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 💖 Girlfriend-NextJS
 
-## Getting Started
+A simple **Next.js UI application** built with **create-next-app** as the foundation for your own project.
 
-First, run the development server:
+This starter app is a modern Next.js setup, ready for customization — whether you want to build chat experiences, AI companions, or other interactive web apps.
+
+## 🚀 Features
+
+- Built with **Next.js** (React framework for production)
+- Supports **fast refresh** & hot reloading
+- Simple and clean project structure
+- Easy to customize pages and components
+- Includes basic config files and starter templates
+
+---
+
+## 🛠 Getting Started
+
+### 🧾 Prerequisites
+
+Make sure you have the following installed:
+
+- Node.js (v18 or higher)
+- npm / Yarn / pnpm
+
+---
+
+### 📥 Install
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/bhushan-ai/girlfriend-nextjs.git
+````
+
+2. **Navigate into the directory**
+
+```bash
+cd girlfriend-nextjs
+```
+
+3. **Install dependencies**
+
+```bash
+npm install
+# or
+yarn
+# or
+pnpm install
+```
+
+---
+
+### 🚀 Run in Development
+
+Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open your browser and visit:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+You’ll see the app running live with hot-reload.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 📁 Project Structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+girlfriend-nextjs/
+├── app/                 # Next.js app routes
+├── components/          # UI components
+├── lib/                 # Libraries & helpers
+├── public/              # Static assets
+├── .gitignore
+├── next.config.mjs
+├── package.json
+└── README.md
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📦 Built With
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* **Next.js** – React framework for production
+* **React** – UI library
+* **Tailwind CSS** (if included) – Utility-first CSS framework
+* **Vercel-ready** config for simple deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📦 Deployment
+
+This app can be deployed to **Vercel**, **Netlify**, or any modern static host.
+
+Example with Vercel:
+
+```bash
+vercel
+```
+
+Follow prompts and your app will be live in minutes!
+
+---
+
+## ⚙️ Customize
+
+You can use this starter to build:
+
+* AI chat companions
+* Interactive UI demos
+* Fullstack apps with Next.js API routes
+* Static and dynamic pages
+* Integrations with OpenAI / AI SDKs
+
+---
+
+## 📄 License
+
+This project currently does not include a license.
+You can add one (e.g., MIT) via:
+
+```
+LICENSE
+```
+
+---
+
