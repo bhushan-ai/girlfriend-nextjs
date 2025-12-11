@@ -4,6 +4,9 @@ A simple **Next.js UI application** built with **create-next-app** as the founda
 
 This starter app is a modern Next.js setup, ready for customization — whether you want to build chat experiences, AI companions, or other interactive web apps.
 
+👉 **Live Website:**  
+### 🔗 https://girlfriend-nextjs.vercel.app/
+
 ## 🚀 Features
 
 - Built with **Next.js** (React framework for production)
